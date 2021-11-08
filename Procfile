@@ -1,1 +1,1 @@
-web: gunicorn tbot-2:app
+web: gunicorn fb-testbot-2:app

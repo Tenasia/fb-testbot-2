@@ -17,9 +17,9 @@ def process_message(text):
     about_bot = ["Oh me?", "I see that you want to know more of me.", "You're curious about me, aren't you?", "I'm kind of new here so I understand why you asked."]
     
     if formatted_message == "1" or formatted_message == "one" or formatted_message == "first" or formatted_message == "1st":
-        response = f"[1] What is the activities for this week?\n\n{random.choice(number_reply)} \n\nClass G-Drive:\n(http://bit.ly/SA-TechDrive)\n\n If you see that your question is not on the list, please comment on the page for assistance."
+        response = f"[1] What is the activities for this week?\n\n{random.choice(number_reply)} \n\nCalendar:\nhttp://bit.ly/SA-TechCalendar-Tasks http://bit.ly/SA-TechCalendar-Lectures\nAssignment List:\nhttps://bit.ly/SA-TechAssignmentList\n\n If you see that your question is not on the list, please comment on the page for assistance."
     elif formatted_message == "2":
-        response = f"[2] Is there a place where I can access a library of materials for class?\n\n{random.choice(number_reply)} test text"
+        response = f"[2] Is there a place where I can access a library of materials for class?\n\n{random.choice(number_reply)}\n\nClass G-Drive:\n(http://bit.ly/SA-TechDrive)"
     elif formatted_message == "3":
         response = f"[3] Where can I learn more about PUP?\n\n{random.choice(about_bot)}\n\nSchool Handbook\n(https://drive.google.com/file/d/0B1BuDAuN0r8SX1BWX2NSN3FURzg/view?usp=drivesdk&resourcekey=0-oi8lUy9PCFysh0FDyL5ipw)" 
     elif formatted_message == "4":

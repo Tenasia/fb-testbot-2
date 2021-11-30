@@ -21,7 +21,7 @@ def process_message(text):
     elif formatted_message == "2":
         response = f"[2] Is there a place where I can access a library of materials for class?\n\n{random.choice(number_reply)}\n\nClass G-Drive:\n(http://bit.ly/SA-TechDrive)\n\nIf you see that your question is not on the list, please comment on the page for assistance."
     elif formatted_message == "3":
-        response = f"[3] Where can I learn more about PUP?\n\n{random.choice(number_reply)}\n\nSchool Handbook\n(https://drive.google.com/file/d/0B1BuDAuN0r8SX1BWX2NSN3FURzg/view?usp=drivesdk&resourcekey=0-oi8lUy9PCFysh0FDyL5ipw)\n\nIf you see that your question is not on the list, please comment on the page for assistance." 
+        response = f"[3] Where can I learn more about PUP?\n\n{random.choice(number_reply)}\n\nSchool Handbook\n(https://drive.google.com/file/d/0B1BuDAuN0r8SX1BWX2NSN3FURzg/view?usp=drivesdk&resourcekey=0-oi8lUy9PCFysh0FDyL5ipw)\nPUP Main Map:\nhttps://www.pup.edu.ph/resources/images/maps/main.gif\n\nIf you see that your question is not on the list, please comment on the page for assistance." 
     elif formatted_message == "4":
         response = f"[4] Where can I request my school documents?\n\n{random.choice(number_reply)}\n\nSchool Documents:\nItech Document Request Form\n(https://bit.ly/2CA28vk)\nUniversity Document Request Form\n(https://odrs.pup.edu.ph/)\nDownloadable Forms\n(https://www.pup.edu.ph/downloads/students/)\n\nIf you see that your question is not on the list, please comment on the page for assistance."
     elif formatted_message == "5":

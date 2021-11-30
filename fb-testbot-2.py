@@ -17,9 +17,9 @@ def process_message(text):
     about_bot = ["Oh me?", "I see that you want to know more of me.", "You're curious about me, aren't you?", "I'm kind of new here so I understand why you asked."]
     title_question = ["What is the activities for this week?", "Where else can I submit my concerns?", "Why were you made?", "Where can I learn more about PUP?", "Where can I request my school documents?", "Is there a place where I can access a library of materials for class?", "How can I get straight 1's on my subjects?"]
     if formatted_message == "1" or formatted_message == "one" or formatted_message == "first" or formatted_message == "1st":
-        response = f"{random.choice(number_reply)} \n\nClass G-Drive:\n(http://bit.ly/SA-TechDrive)\n\nSchool Handbook\n(https://drive.google.com/file/d/0B1BuDAuN0r8SX1BWX2NSN3FURzg/view?usp=drivesdk&resourcekey=0-oi8lUy9PCFysh0FDyL5ipw)\n\n School Documents:\nItech Document Request Form\n(https://bit.ly/2CA28vk)\nUniversity Document Request Form\n(https://odrs.pup.edu.ph/)\nDownloadable Forms\n(https://www.pup.edu.ph/downloads/students/)\n\n If you see that your question is not on the list, please comment on the page for assistance."
+        response = f"{random.choice(number_reply)} \n\nClass G-Drive:\n(http://bit.ly/SA-TechDrive)\n\nSchool Handbook\n(https://drive.google.com/file/d/0B1BuDAuN0r8SX1BWX2NSN3FURzg/view?usp=drivesdk&resourcekey=0-oi8lUy9PCFysh0FDyL5ipw)\n\nSchool Documents:\nItech Document Request Form\n(https://bit.ly/2CA28vk)\nUniversity Document Request Form\n(https://odrs.pup.edu.ph/)\nDownloadable Forms\n(https://www.pup.edu.ph/downloads/students/)\n\n If you see that your question is not on the list, please comment on the page for assistance."
     elif formatted_message == "2":
-        response = f"{random.choice(number_reply)} \n\nStudent Concerns:\n\n OSSSAC - Student Help Desk/General University Queries\n\n(https://osssac.pup.edu.ph/knowledgebase.php)\n\nItech Concerns Group\n\n (https://www.facebook.com/groups/826853574473330)\n\nIf you see that your question is not on the list, please comment on the page for assistance."
+        response = f"{random.choice(number_reply)} \n\nStudent Concerns:\nOSSSAC - Student Help Desk/General University Queries\n(https://osssac.pup.edu.ph/knowledgebase.php)\nItech Concerns Group\n(https://www.facebook.com/groups/826853574473330)\n\nIf you see that your question is not on the list, please comment on the page for assistance."
     elif formatted_message == "3":
         response = f"{random.choice(about_bot)} I was made by a student to assist the volunteers of this page in answering most of the common school queries. Other than that, I don't do much so please don't expect me to be like Alexa, Google Assistant, or other really smart AIs. I mean, it may be possible but it would take a very long time."
     elif formatted_message == "4":
@@ -27,9 +27,9 @@ def process_message(text):
     elif formatted_message == "5":
         response =f"{random.choice(number_reply)}\n\nYou don't.   "
     elif formatted_message == "6":
-        response =f"{random.choice(number_reply)}\n\nYou don't.   "
+        response =f"[6] Is there a place where I can access a library of materials for class?\n\n{random.choice(number_reply)}\n\nYou don't.   "
     elif formatted_message == "7":
-        response =f"{title_question.iloc[6]}\n\nYou don't.   "
+        response =f"[7] How can I get straight 1's on my subjects?\n\n{random.choice(number_reply)}\n\nYou don't.   "
     elif formatted_message == "thank you" or formatted_message == "thankyou" or formatted_message == "thanks" or formatted_message == "ty" or formatted_message == "thx" or formatted_message == "salamat" or formatted_message == "salamuch" or formatted_message == "matsala" or formatted_message == "arigato" or formatted_message == "arigathanks":
         response = f"{random.choice(thanks_response)}"
     else:

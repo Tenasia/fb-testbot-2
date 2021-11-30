@@ -19,13 +19,13 @@ def process_message(text):
     if formatted_message == "1" or formatted_message == "one" or formatted_message == "first" or formatted_message == "1st":
         response = f"{random.choice(number_reply)} \n\nClass G-Drive:\n(http://bit.ly/SA-TechDrive)\n\nSchool Handbook\n(https://drive.google.com/file/d/0B1BuDAuN0r8SX1BWX2NSN3FURzg/view?usp=drivesdk&resourcekey=0-oi8lUy9PCFysh0FDyL5ipw)\n\nSchool Documents:\nItech Document Request Form\n(https://bit.ly/2CA28vk)\nUniversity Document Request Form\n(https://odrs.pup.edu.ph/)\nDownloadable Forms\n(https://www.pup.edu.ph/downloads/students/)\n\n If you see that your question is not on the list, please comment on the page for assistance."
     elif formatted_message == "2":
-        response = f"{random.choice(number_reply)} \n\nStudent Concerns:\nOSSSAC - Student Help Desk/General University Queries\n(https://osssac.pup.edu.ph/knowledgebase.php)\nItech Concerns Group\n(https://www.facebook.com/groups/826853574473330)\n\nIf you see that your question is not on the list, please comment on the page for assistance."
+        response = f"{random.choice(number_reply)} test text"
     elif formatted_message == "3":
         response = f"{random.choice(about_bot)} I was made by a student to assist the volunteers of this page in answering most of the common school queries. Other than that, I don't do much so please don't expect me to be like Alexa, Google Assistant, or other really smart AIs. I mean, it may be possible but it would take a very long time."
     elif formatted_message == "4":
-        response =f"{random.choice(number_reply)}\n\nYou don't.   "
+        response =f"{random.choice(number_reply)}\n\nYou don't."
     elif formatted_message == "5":
-        response = f"{random.choice(number_reply)} \n\nStudent Concerns:\nOSSSAC - Student Help Desk/General University Queries\n(https://osssac.pup.edu.ph/knowledgebase.php)\nItech Concerns Group\n(https://www.facebook.com/groups/826853574473330)\n\nSchool Contacts:\nEmails(Itech Department):\nEngineer:\nfcruz@pup.edu.ph\nOr\nItech:\npupitechmanila@gmail.com\nICT:\njosephine_delaisla@yahoo.com.ph\nOr\nDMT:\njmdelaisla@pup.edu.ph\nRegistrar:\nsolanomacorazon216@gmail.com\n\nMain University Emails:\nhttps://www.pup.edu.ph/about/contactus\n\nIf you see that your question is not on the list, please comment on the page for assistance."
+        response = f"{random.choice(number_reply)} \n\nStudent Concerns:\nOSSSAC - Student Help Desk/General University Queries\n(https://osssac.pup.edu.ph/knowledgebase.php)\nItech Concerns Group\n(https://www.facebook.com/groups/826853574473330)\n\nSchool Contacts:\nEmails(Itech Department):\nEngineer: fcruz@pup.edu.ph\nItech: pupitechmanila@gmail.com\nICT: josephine_delaisla@yahoo.com.ph\nDMT: jmdelaisla@pup.edu.ph\nRegistrar: solanomacorazon216@gmail.com\n\nMain University Emails:\nhttps://www.pup.edu.ph/about/contactus\n\nIf you see that your question is not on the list, please comment on the page for assistance."
     elif formatted_message == "6":
         response =f"[6] Is there a place where I can access a library of materials for class?\n\n{random.choice(number_reply)}\n\nYou don't.   "
     elif formatted_message == "7":

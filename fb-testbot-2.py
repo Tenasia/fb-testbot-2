@@ -17,7 +17,7 @@ def process_message(text):
     about_bot = ["Oh me?", "I see that you want to know more of me.", "You're curious about me, aren't you?", "I'm kind of new here so I understand why you asked."]
     
     if formatted_message == "1" or formatted_message == "one" or formatted_message == "first" or formatted_message == "1st":
-        response = f"[1] What is the activities for this week?\n\n{random.choice(number_reply)}\n\nCalendar:\nTasks: http://bit.ly/SA-TechCalendar-Tasks \nLectures: http://bit.ly/SA-TechCalendar-Lectures\nAssignment List:\nhttps://bit.ly/SA-TechAssignmentList\n\nIf you see that your question is not on the list, please comment on the page for assistance."
+        response = f"[1] What are the activities for this week?\n\n{random.choice(number_reply)}\n\SA-Tech Calendar\nTasks:\nhttp://bit.ly/SA-TechCalendar-Tasks \nLectures:\nhttp://bit.ly/SA-TechCalendar-Lectures\nAssignment List:\nhttps://bit.ly/SA-TechAssignmentList\nPUP Calendar:\nhttps://www.pup.edu.ph/about/calendar\n\nIf you see that your question is not on the list, please comment on the page for assistance."
     elif formatted_message == "2":
         response = f"[2] Is there a place where I can access a library of materials for class?\n\n{random.choice(number_reply)}\n\nClass G-Drive:\n(http://bit.ly/SA-TechDrive)"
     elif formatted_message == "3":
@@ -33,7 +33,7 @@ def process_message(text):
     elif formatted_message == "thank you" or formatted_message == "thankyou" or formatted_message == "thanks" or formatted_message == "ty" or formatted_message == "thx" or formatted_message == "salamat" or formatted_message == "salamuch" or formatted_message == "matsala" or formatted_message == "arigato" or formatted_message == "arigathanks":
         response = f"{random.choice(thanks_response)}"
     else:
-        response = f"{random.choice(greetings)} I'm ASH your Automated Student Helper, how may I help you today? Please type in the number of your choice:\n\n[1] What is the activities for this week?\n[2] Is there a place where I can access a library of materials for class?\n[3] Where can I learn more about PUP?\n[4] Where can I request my school documents?\n[5] Where else can I submit my concerns?\n[6] Why were you made?\n[7] How can I get straight 1's on my subjects?\n\n(Note: I'm just a simple bot so I'll keep repeating this response when you enter in a random text even if I don't understand it.)"
+        response = f"{random.choice(greetings)} I'm ASH your Automated Student Helper, how may I help you today? Please type in the number of your choice:\n\n[1] What are the activities for this week?\n[2] Is there a place where I can access a library of materials for class?\n[3] Where can I learn more about PUP?\n[4] Where can I request my school documents?\n[5] Where else can I submit my concerns?\n[6] Why were you made?\n[7] How can I get straight 1's on my subjects?\n\n(Note: I'm just a simple bot so I'll keep repeating this response when you enter in a random text even if I don't understand it.)"
     return response
 
 #We will receive messages that Facebook sends our bot at this endpoint

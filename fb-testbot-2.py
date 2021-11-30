@@ -17,7 +17,7 @@ def process_message(text):
     about_bot = ["Oh me?", "I see that you want to know more of me.", "You're curious about me, aren't you?", "I'm kind of new here so I understand why you asked."]
     
     if formatted_message == "1" or formatted_message == "one" or formatted_message == "first" or formatted_message == "1st":
-        response = f"[1] What are the activities for this week?\n\n{random.choice(number_reply)}\n\nAssignment List:\nhttps://bit.ly/SA-TechAssignmentList\nPUP Calendar:\nhttps://www.pup.edu.ph/about/calendar\n\nIf you see that your question is not on the list, please comment on the page for assistance."
+        response = f"[1] What are the activities for this week?\n\n{random.choice(number_reply)}\n\nAssignment List:\nhttps://bit.ly/SA-TechAssignmentList\nModifiable Class Schedule:\nhttps://docs.google.com/spreadsheets/d/1Y4oQtsn8YwU1NHONJYppFkiKL2VX7dVjBBuKEpCBFqE/edit?usp=sharing\n\nPUP Calendar:\nhttps://www.pup.edu.ph/about/calendar\n\nIf you see that your question is not on the list, please comment on the page for assistance."
     elif formatted_message == "2":
         response = f"[2] Is there a place where I can access a library of materials for class?\n\n{random.choice(number_reply)}\n\nClass G-Drive:\n(http://bit.ly/SA-TechDrive)\n\nIf you see that your question is not on the list, please comment on the page for assistance."
     elif formatted_message == "3":
